@@ -1,0 +1,140 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+header{
+  background-color:#000;
+  height:100px;
+}
+header>h1{
+  padding-top:5px;
+  color:#fff;
+  text-align:center;
+  font-size:55px;
+}
+nav{
+  text-align:center;
+  padding-top:15px;
+}
+nav>a{
+  margin-left:15px;
+  font-weight:bold;
+  color:#fff;
+  text-decoration: none;
+  font-size:18px;
+  transition:0.5s;
+  
+}
+nav>a:hover{
+  color:#1560BD;
+  font-size:20px;
+}
+.section-name{
+  text-align:center;
+  font-size:38px;
+}
+.roupas{
+  display:flex;
+  flex-wrap:wrap;
+  padding: 5px;
+  margin:auto;
+  max-width:500px;
+}
+.roupas img{
+  width:130px;
+  margin-left:20px;
+  transition:0.5s;
+}
+.roupas>div>p{
+  text-align:center;
+  font-weight:bold;
+}
+.roupas>div>a>img:hover{
+  width:145px;
+}.pub>img{
+    
+}
+.pub{
+  background-image:url('../img/compras.jpg');
+  height:430px;
+  background-repeat:no-repeat;
+  background-size:cover;
+  margin-bottom:30px;
+  
+}
+.pub p{
+  font-size:55px;
+  font-weight:bold;
+  text-align:center;
+  color:white;
+  text-transform:uppercase;
+}
+.constrate{
+  background-color:rgba(0,0,0,0.170);
+  height:430px;
+  width:100%;
+   display:flex;
+  background-position:top ;
+  justify-content:center;
+  align-items:center;
+}
+#mais-vendidos{
+  margin-top:20px;
+}
+#pub2{
+  background-image:url('../img/compras2.jpg');
+}
+.dicas{
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+}
+.dicas>h2{
+  text-align:center;
+  font-size:38px;
+  margin-bottom:15px;
+  margin-top:35px;
+}
+.dicas img{
+  height: 550px;
+  width:400px;
+  transition:0.5s;
+}
+.dicas p{
+  
+  font-size:20px;
+  font-weight:bold;
+  margin-bottom:35px;
+  margin-top:15px;
+}
+
+.dicas img:hover{
+  width:440px;
+  height:590px;
+}
+.ver{
+  color:#1560BD;
+  text-decoration:none;
+  display:block;
+  text-align:center;
+  font-weight:bold;
+  font-size:24px;
+  margin-bottom:25px;
+  transition:0.5s;
+}
+.ver:hover{
+  font-size:28px;
+}
+footer{
+  background-color:#000;
+  height:150px;
+  color:#fff;
+  width:100%;
+}
+footer>p{
+  padding:5px;
+  font-weight:bold;
+}
+#autor{
+  padding-top:15px;
+}
